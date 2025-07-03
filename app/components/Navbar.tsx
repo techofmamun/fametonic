@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <div className="w-full max-w-[1440px] h-[74px] flex flex-row sm:justify-between items-start mx-auto my-[35px] mb-[57px] px-7 sm:px-8 md:px-16 lg:px-auto">
       {/* Left side - Logo */}
-      <div className="pl-[1.6px] pb-[0.7px] flex-1 sm:flex-none">
+      <div className="pl-[1.6px] pb-[0.7px] flex-1 sm:flex-none flex justify-start items-center">
         <Image
           src="/fametonic.png"
           alt="Fametonic"
           width={169.3}
           height={72.3}
-          className="object-contain mx-auto sm:mx-0"
+          className="object-contain mx-auto sm:mx-0 w-[105px] h-[45px] sm:w-[169.3px] sm:h-[72.3px]"
         />
       </div>
 
