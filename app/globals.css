@@ -9,6 +9,7 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-figtree: var(--font-figtree);
+  --font-urbanist: var(--font-urbanist);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,11 +1,16 @@
 import type { Metadata } from "next";
-import { Figtree } from "next/font/google";
+import { Figtree, Urbanist } from "next/font/google";
 import TopBar from "./components/TopBar";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 
 const figtree = Figtree({
   variable: "--font-figtree",
+  subsets: ["latin"],
+});
+
+const urbanist = Urbanist({
+  variable: "--font-urbanist",
   subsets: ["latin"],
 });
 
@@ -21,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${figtree.variable} antialiased min-h-screen`}>
+      <body className={`${figtree.variable} ${urbanist.variable} antialiased min-h-screen`}>
         <TopBar />
         <Navbar />
         {children}
