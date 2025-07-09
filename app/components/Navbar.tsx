@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="w-full max-w-[1100px] h-[74px] flex flex-row sm:justify-between items-start mx-auto  mb-[57px] px-7 sm:px-8 md:px-16 lg:px-auto">
+    <div className="w-full h-[46px] sm:h-[74px] flex flex-row sm:justify-between items-start lg:mb-[57px] mx-auto px-5 lg:pl-[215px] lg:pr-[211px] z-50 max-w-[1440] absolute sm:static mt-3 sm:mt-0">
       {/* Left side - Logo */}
       <div className="pl-[1.6px] pb-[0.7px] flex-1 sm:flex-none flex justify-start items-center">
         <Image

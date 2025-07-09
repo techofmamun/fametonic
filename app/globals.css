@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.top-background {
+    background-image: linear-gradient(to right, #fc004e, #10cbe0);
+
+}
